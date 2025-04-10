@@ -133,7 +133,7 @@ We will include the validation for the `CreateRestaurantScreen` form by followin
 
    - `validationSchema`: the validation rules, usually a yup object.
    - `initialValues`: the initial values given to each of the form inputs.
-   - `onSubmit`: the function to be called when the inserted form values pass the validation. Usually we will call a function that will be in charge of preparing the data and using a creation endpoint for the entity. We will learn hoy to POST data to the backend later. At this moment we will just print the values in console.
+   - `onSubmit`: the function to be called when the inserted form values pass the validation. Usually we will call a function that will be in charge of preparing the data and using a creation endpoint for the entity. We will learn how to POST data to the backend later. At this moment we will just print the values in console.
 
      ```Javascript
      const createRestaurant = async (values) => {
